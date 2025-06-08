@@ -13,8 +13,9 @@
 body{
 flex-wrap: flex;
 font-family: Georgia, 'Times New Roman', Times, serif;
-background-color: var(--theme-color);
-color: #333;
+/*background-color: var(--theme-color);*/
+background-color: #c4dadf;
+color: #333; 
 line-height: 2;
 margin: 10px;
 font-size: large;
@@ -25,11 +26,10 @@ font-size: large;
   justify-content: center;
   text-align: center;
   display: flex;
-  
 }
-.header h1{
-color: rgb(48, 57, 65);
-
+h1{
+/*color: rgb(48, 57, 65);*/
+ color:#0065F8;
 border-radius: 1rem;
 }
     
@@ -51,24 +51,24 @@ background-color: #ad7070;
 background-color: #4b7f8c;
   }
 }
- 
-.nav a{
-  color: azure;
-  font-weight: bolder;
-  font-size: large;
-  margin: 0.2rem;
-  padding: 0.2rem;
-  text-decoration: none;
+ .nav{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow:5px 10px 8px 10px #333;
-  border-radius: 20px;
+  justify-content: space-evenly;
+ }
+.nav a{
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  margin: 50px;
+  padding: 10px
 }
 .nav a:hover{
-background-color: var(--primary-vibriant);
+/*background-color: var(--primary-vibriant); */
+background-color: teal;
 transition:all 0.3s ease;
-transform: scale(0.7,0.7);
+transform: scale(1.5, 1.5);
+border-bottom: 3px solid blue;
 }
 .container{
   background-image: url(images/health\ awareness1.jpg);
@@ -234,6 +234,5 @@ margin: 1px;
   bottom: 0px;
  
 }
-
 }
 
