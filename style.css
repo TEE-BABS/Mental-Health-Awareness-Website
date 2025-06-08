@@ -1,0 +1,238 @@
+:root{
+  --primary-color:#4300FF;
+  --primary-vibriant:#0065F8;
+  --theme-color:#00CAFF;
+  --hover-color:#00FFDE;
+  --error-color:rgb(255, 0, 0);
+}
+
+*{
+  margin:0px;
+  padding: 0px;
+}
+body{
+flex-wrap: flex;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: var(--theme-color);
+color: #333;
+line-height: 2;
+margin: 10px;
+font-size: large;
+}
+
+.header{
+  /* border: 1px solid blanchedalmond; */
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  
+}
+.header h1{
+color: rgb(48, 57, 65);
+
+border-radius: 1rem;
+}
+    
+@keyframes change {
+  0%{
+background-color: #00CAFF;
+  }
+  25%{
+background-color: #8a9ea3;
+  }
+  50%{
+background-color: #333;
+
+  }
+  75%{
+background-color: #ad7070;
+  }
+  100%{
+background-color: #4b7f8c;
+  }
+}
+ 
+.nav a{
+  color: azure;
+  font-weight: bolder;
+  font-size: large;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:5px 10px 8px 10px #333;
+  border-radius: 20px;
+}
+.nav a:hover{
+background-color: var(--primary-vibriant);
+transition:all 0.3s ease;
+transform: scale(0.7,0.7);
+}
+.container{
+  background-image: url(images/health\ awareness1.jpg);
+  height:100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin:0px;
+ 
+}
+/* .container::before{
+  position: absolute;
+  content: "Your Mental is not something you joke with,Depression is real.";
+   background-image: url(images/health\ awareness1.jpg);
+    background-size: cover;
+     background-position: center;
+     opacity: ;
+     z-index: 1;
+} */
+.Home{
+  color: aliceblue;
+  background-color: #c4dadf;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  box-shadow: -5px 10px 8px 10px #333;
+  font-weight: bold;
+  margin: 1.5rem;
+  border: 1px solid;
+  padding:4rem 2rem;
+  text-align: center;
+  animation:change 10s infinite; 
+}
+.Home img{
+  width: 100%;
+  height: 100px;
+ 
+}
+.Home a{
+   text-decoration: none;
+   
+}
+.sub-container{
+padding:2rem;
+color: black;
+}
+.footer{
+  display: flex;
+  flex-wrap: flex;
+  color: aliceblue;
+  background-color:#4300FF;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+.contact{
+  /* display: flex; */
+  flex-wrap: flex;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #bcc7c9;
+  width:60% ;
+  height: 300px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 5px 10px 8px 10px #333;
+  position: relative;
+  
+}
+.contact form{
+  margin: 10px;
+  /* border: 2px solid; */
+  flex-wrap: flex;
+  text-align: center;
+  /* position: absolute; */
+ font-weight: bold;
+  margin-top: 0.3rem;
+  width: 70%;
+  height: 80%;
+  text-align: left; 
+  border-radius: 10px;
+}
+.contact form button{
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  width:100px;
+  height: 35px;
+  background-color: green;
+  border-radius: 8px;
+  color:whitesmoke;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-shadow: -5px -10px 5px 0px #333;
+ 
+}
+.contact form button:hover{
+  background-color: greenyellow;
+  cursor:pointer;
+  transition: all .3s ease;
+  transform: scale(0.7,0.7);
+  color: black;
+}
+.contact form input{
+  display: flex;
+  flex-wrap: flex;
+  border: none;
+  width: 70%;
+  height: 30px;
+  border-radius: 15px;
+  margin-bottom: 0px;
+  color: black;
+  background-color: transparent;
+}
+.contact form label{
+margin: 1px;
+}
+.contact form textarea{
+  border: none;
+  width: 70%;
+  height: 35px;
+  background-color: transparent;
+  /* to disable the resize  symbol of textarea, type "resize:none;"*/
+  resize: none;
+}
+.desktop{
+  display: block;
+}
+.tablet{
+  display:none;
+}
+.phone{
+  display:none;
+}
+@media(max-width:830px){
+.desktop{
+  display: none;
+}
+.tablet{
+  display:block;
+}
+.phone{
+  display:none;
+}
+}
+@media(max-width:600px){
+.desktop{
+  display: none;
+}
+.tablet{
+  display:none;
+}
+.phone{
+  display:block;
+}
+.contact form button{
+  border: none;
+  background-color: transparent;
+  color: black;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+ 
+}
+
+}
+
