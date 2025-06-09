@@ -232,8 +232,10 @@ margin: 1px;
   position: absolute;
   right: 0px;
   bottom: 0px;
+  box-shadow: -5px -10px 5px 0px #333;
  
 }
+
 
 }
 
