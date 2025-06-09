@@ -51,8 +51,7 @@ background-color: #ad7070;
 background-color: #4b7f8c;
   }
 }
- 
-.nav a{
+ nav a{
   color: azure;
   font-weight: bolder;
   font-size: large;
@@ -65,6 +64,7 @@ background-color: #4b7f8c;
   box-shadow:5px 10px 8px 10px #333;
   border-radius: 20px;
 }
+
 .nav a:hover{
 background-color: var(--primary-vibriant);
 transition:all 0.3s ease;
@@ -235,7 +235,6 @@ margin: 1px;
   box-shadow: -5px -10px 5px 0px #333;
  
 }
-
-
 }
+
 
