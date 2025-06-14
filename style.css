@@ -206,26 +206,26 @@ margin: 1px;
   display:none;
 }
 @media(max-width:830px){
-.desktop{
+/* .desktop{
   display: none;
-}
-.tablet{
+} */
+/* .tablet{
   display:block;
-}
-.phone{
+} */
+/* .phone{
   display:none;
-}
+} */
 }
 @media(max-width:600px){
-.desktop{
+/* .desktop{
   display: none;
-}
-.tablet{
+} */
+/* .tablet{
   display:none;
-}
-.phone{
+} */
+/* .phone{
   display:block;
-}
+} */
 .contact form button{
   border: none;
   background-color: transparent;
